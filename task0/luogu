@@ -1,3 +1,43 @@
 a,b=map(int,input().split())
 print(a+b)
-    
+////
+apple=list(map(int,input().split()))
+a=int(input())
+total=a+30
+cnt=0
+for height in apple:
+    if height <= total:
+        cnt+=1
+print(cnt)
+////
+x,y=map(int,input().split())
+runnian=[]
+for i in range(x,y+1):
+    if (i%4==0 and i%100!=0) or (i%400==0):
+        runnian.append(i)
+print(len(runnian))
+print(*runnian)
+////
+import math
+n=int(input())
+isprime=True
+for i in range(2,int(math.sqrt(n))+1):
+    if(n%i==0):
+        isprime=False
+        break
+if isprime:
+    print("YES")
+else:
+    print("NO")
+////
+n = int(input())
+name = [""]
+for _ in range(n):
+    s = input().strip()
+    name.append(s)
+m = int(input())
+for _ in range(m):
+    u, v = map(int, input().split())
+    name[u] = "I_love_" + name[v]
+print(name[1])
+////
