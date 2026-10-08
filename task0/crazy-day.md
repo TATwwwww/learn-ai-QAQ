@@ -41,7 +41,7 @@ $$
 [百度][id][百度][id][百度][id]
 
 [id]: baidu.com
-URL;
+URL:
 http://www.baidu.com
 
 ![百度](https://home.baidu.com/Public/img/logo.png?v=15"百度搜索")
