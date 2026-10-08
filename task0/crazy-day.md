@@ -1,6 +1,9 @@
-# title1
+# title1👣
 ## 标题2
 ### 标题3
+
+**日期**：2026年10月8日  
+**心情**：从迷茫到兴奋
 
 >我喜欢你
 
@@ -22,10 +25,6 @@
 	 return 0;
 }
 ```
-公式
-$$
-\frac{\partial f}{\partial x}=2\sqrt{a}x
-$$
 
 表格
 |姓名是什么|年龄|
@@ -36,18 +35,10 @@ $$
 不确定的地点[^地点]
 [^地点]:猜猜哪里
 
-[百度](baidu.com)
-
-[百度][id][百度][id][百度][id]
+baidu: [百度](baidu.com)
 
 [id]: baidu.com
 URL:
 http://www.baidu.com
 
 ![百度](https://home.baidu.com/Public/img/logo.png?v=15"百度搜索")
-
-*斜体***加粗**`printf()`,<u>下划线</u>,:smile:
-
-H~2~O
-x^2^
-==高亮==
